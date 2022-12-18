@@ -25,3 +25,7 @@ for i in range(1, n+1):
     res = i * 3 + 1
     dict[i] = res
 print(f'Для n = {n}: {dict}')
+
+# Четвертое решение
+n = int(input('Введите число: '))
+print({n: 3*n+1 for n in range(n)})
