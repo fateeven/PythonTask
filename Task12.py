@@ -6,12 +6,14 @@ s = 0
 while s < N:
     print(f'{(-3) ** s}', end=' ')
     s += 1
+
 print()  # /------
 
 # Второе решение
 n = int(input('Введите число: '))
 for i in range(n):
     print(f'{(-3) ** i}', end=', ')
+
 print()  # /------
 
 # Третье решение
