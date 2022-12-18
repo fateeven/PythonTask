@@ -5,4 +5,5 @@ y_a = int(input('Введите у точки А '))
 x_b = int(input('Введите x точки B '))
 y_b = int(input('Введите у точки B '))
 
-print(((x_a - x_b)**2 + (y_a - y_b)**2)**0.5)
+res = (((x_a - x_b)**2 + (y_a - y_b)**2)**0.5)
+print(round(res, 2))       # ограничили дробные числа до сотых с помощью round(res, 2)
