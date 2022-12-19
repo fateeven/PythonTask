@@ -11,4 +11,3 @@ for i in number:
     if i != '.':
         sum += int(i)
 print(f'Cумма цифр числа равна: {sum} ')
-
