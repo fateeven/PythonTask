@@ -15,7 +15,7 @@ def neg_fib(n: int) -> int:  # Возвращает член последова�
     return (-1) ** (n + 1) * fib(n)
 
 
-def sequence_of_fibs(n: int) -> list[int]:  # сращиваем две списка
+def sequence_of_fibs(n: int) -> list[int]:  # генерируем 2 списка и сращиваем их
     list1 = [neg_fib(i) for i in range(n + 1)][::-1]
     list2 = [fib(i) for i in range(1, n + 1)]
     return list1 + list2
