@@ -18,4 +18,13 @@ print(f'Двоичное число: {dvoichnoe} ')
 # Вариант 2
 
 num = int(input('Введите число: '))
-print(bin(num))
+print(bin(num)[2::])
+
+
+# Вариант 3
+
+def ordinary_bin(n: int) -> str:
+    return bin(n)[2::]
+
+
+print(ordinary_bin(45))
