@@ -7,7 +7,6 @@
 # Вариант 1
 
 num = int(input('Введите число: '))
-
 dvoichnoe = ''
 
 while num > 0:
