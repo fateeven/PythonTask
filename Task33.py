@@ -24,7 +24,7 @@ with open(f'{filename1}.txt', 'r') as f1:  # считываем данные и�
 
 with open(f'{filename2}.txt', 'r') as f2:  # считываем данные из файла Task33_second
     s_pol = f2.read()
-    print(f'Первый полином: {s_pol}')
+    print(f'Второй полином: {s_pol}')
 
 sum_of_polinoms = simplify(f_pol + '+' + s_pol)  # складываем полниномы
 sum_of_polinoms = str(sum_of_polinoms)
