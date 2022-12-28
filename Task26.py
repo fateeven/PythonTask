@@ -3,20 +3,20 @@
 # (D = b^2-4ac, x1 = (-b+/- sqtr(D))/2*a)
 # 2) с помощью дополнительных библиотек Python(sympy, scipy)(Дополнительно)
 
-# # Первое решение
-# from math import sqrt
-#
-# a, b, c = list(map(int, input('Введите коэффициенты квадратного уравнения:  ').split()))
-# d = b ** 2 - 4 * a * c
-# if d > 0:
-#     x1 = (-b + sqrt(d)) / (2 * a)
-#     x1 = (-b - sqrt(d)) / (2 * a)
-#     print(f'Корней два: {x1} {x2}')
-# elif d == 0:
-#     x1 = (-b + sqrt(d)) / (2 * a)
-#     print(f'Корень один: {x1}')
-# else:
-#     print(f'Действительных корней нет: D = {d}')
+# Первое решение
+from math import sqrt
+
+a, b, c = list(map(int, input('Введите коэффициенты квадратного уравнения:  ').split()))
+d = b ** 2 - 4 * a * c
+if d > 0:
+    x1 = (-b + sqrt(d)) / (2 * a)
+    x1 = (-b - sqrt(d)) / (2 * a)
+    print(f'Корней два: {x1} {x2}')
+elif d == 0:
+    x1 = (-b + sqrt(d)) / (2 * a)
+    print(f'Корень один: {x1}')
+else:
+    print(f'Действительных корней нет: D = {d}')
 
 # Второе решение
 import sympy
