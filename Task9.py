@@ -34,3 +34,5 @@ def num_coordinate_plane(x, y):
 x = int(input('Введите значение точки х: '))
 y = int(input('Введите значение точки y: '))
 num_coordinate_plane(x, y)
+
+

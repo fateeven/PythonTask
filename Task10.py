@@ -14,6 +14,12 @@ else:
     print('Ошибка ввода')
 
 # Второе решение
-a = input('Введите номер плоскости: ')
-d = {'1':'x > 0 and y > 0', '2': 'x < 0 and y > 0', '3': 'x < 0 and y < 0', '4': 'x > 0 and y < 0'}
-print(d[a])
+def coordinate_range():
+    a = input('Введите номер плоскости: ')
+    d = {'1':'x > 0 and y > 0', '2': 'x < 0 and y > 0', '3': 'x < 0 and y < 0', '4': 'x > 0 and y < 0'}
+
+    print(d[a])
+
+
+
+coordinate_range()
