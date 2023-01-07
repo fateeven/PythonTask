@@ -18,3 +18,15 @@ a = []
 for i in range(-n, n+1):
     a.append(i)
 print(a)
+
+
+def row_numbers():
+    """Выводит числа от -N до N включительно."""
+    number = int(input('Введите число: '))
+    row =[]
+    for number in range(-number, number+1):
+        row.append(number)
+    print(row)
+
+
+row_numbers()
