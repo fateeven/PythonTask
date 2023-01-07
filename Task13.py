@@ -20,6 +20,7 @@ print()  # /------
 
 # Третье решение
 def dictionary_with_multiple():
+    """Выдает словарь из элементов последовательности 3n + 1"""
     n = int(input('Введите число: '))
     dict = {}
     for i in range(1, n+1):
@@ -32,6 +33,7 @@ dictionary_with_multiple()
 
 # Четвертое решение
 def dictionary_with_multiple2():
+    """Выдает словарь из элементов последовательности 3n + 1"""
     n = int(input('Введите число: '))
     print({n: 3*n+1 for n in range(n)})
 
