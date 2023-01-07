@@ -4,14 +4,16 @@
 N = int(input('Введите число: '))
 s = -N
 while s <= N:
-    print(s)
+    print(s, end=', ')
     s = s + 1
 
+print()
 # Второе решение
 L = int(input('Введите число: '))
 for i in range(-L, L+1):
-    print(i)
+    print(i, end=', ')
 
+print()
 # Третье решение
 n = int(input('Введите число: '))
 a = []
